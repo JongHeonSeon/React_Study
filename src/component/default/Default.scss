@@ -1,0 +1,31 @@
+@import './Font.scss';
+@import './Color.scss';
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    font-family: 'nanumsquare';
+}
+
+body{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #202020;
+    letter-spacing: -1px;
+}
+
+input{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+}

@@ -1,0 +1,44 @@
+@import '../default/Color.scss';
+@import '../default/Layout.scss';
+
+.Header{
+    width: 100%;
+    @include topFix;
+    background: $brnad-bg_color1;
+    &_wrap{
+        @include flexSpace(row);
+        padding: 20px;
+    }
+    &__logo{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: left;
+        &_txt{
+            color: $brand-color;
+        }
+    }
+    &__input{
+        @include flexCenter(row);
+        &_wrap{
+            @include flexCenter(column);
+            margin-right: 5px;
+            input{
+                width: 120px;
+                padding: 0 10px;
+                height: 20px;
+                border-radius: 6px;
+                &:first-child{
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        &_btn{
+            height: 45px;
+            width: 45px;
+            border-radius: 6px;
+            background: $brand-color;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+}

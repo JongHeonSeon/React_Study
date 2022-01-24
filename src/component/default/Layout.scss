@@ -1,0 +1,20 @@
+// position
+@mixin topFix {
+    position: fixed;
+    top:0;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+// flex
+@mixin flexSpace ($direction) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: ($direction);
+}
+@mixin flexCenter ($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: ($direction);
+}
