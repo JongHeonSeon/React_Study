@@ -1,6 +1,6 @@
 /*eslint-disable*/
 import React, { useState } from "react";
-import '../header/Header.scss';
+import './Header.scss';
 
 function Header() {
 

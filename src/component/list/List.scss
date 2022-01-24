@@ -1,0 +1,10 @@
+@import '../default/Color.scss';
+@import '../default/Layout.scss';
+
+.List{
+    width: 100%;
+    &_wrap{
+        @include flexCenter(column);
+        
+    }
+}
